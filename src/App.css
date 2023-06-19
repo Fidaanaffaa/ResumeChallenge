@@ -14,14 +14,56 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: beige;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: black;
+  font-weight: bold;
+  font-family: "David", sans-serif;
+}
+.ProjectsSection
+{
+ position : relative;
+  top : 210px;
+}
+
+
+.ProjectDescription{
+  font-size: 12px;
+  font-family : "David", sans-serif;
+  position : relative;
+  font-weight : normal;
+}
+
+.secondSeparator{
+  position : relative;
+  top : 20px;
+}
+.Separator
+{
+  background-color : black;
+  /*border-top : solid;*/
+  position : relative;
+  bottom : 10px;
+  height : 3px;
+  width : 980px;
+}
+
+.Contact {
+  margin-top : 10px;
+  position : absolute;
+  font-family : "David", sans-serif;
+  top : 35px;
+  font-weight : lighter;
+}
+
+.WorkExperience {
+  position : absolute;
+  font-family : "David", sans-serif;
+  font-weight: normal;
+  top : 95px;
+  font-size: 12px;
 }
 
 .App-link {
@@ -35,4 +77,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Project
+{
+  font-size: 16px;
+  font-family : "David", sans-serif;
+  position : relative;
+}
+
+.ProjectsHeader
+{
+  font-family: "David", sans-serif;
+  font-size : 20px;
+}
+
+.SkillsSection
+{
+  position : relative;
+  top : 230px;
+  background-color : beige;
+}
+
+.SkillsHeader
+{
+  font-family : "David", sans-serif;
+  font-size : 20px;
+}
+
+.SkillName
+{
+  font-family : "David", sans-serif;
+  font-size : 14px;
+  font-weight: bold;
+}
+
+.ProjectSubsection
+{
+  font-family : "David", sans-serif;
+  font-size : 14px;
+  font-weight: bold;
+}
+
+.SkillDescription
+{
+  font-family : "David", sans-serif;
+  font-weight : normal;
+  font-size : 12px;
+}
+#dickButt
+{
+  background-color : #40c437;
+  font-size: large;
+  font-family : "Permanent Marker", cursive;
+}
+
+.BKG
+{
+  background-color : beige;
+}
+
+.Counter
+{
+  font-weight : bold;
+  font-size : 16px;
+  position : relative;
+  left : 800px;
+  top : 20px;
+
 }
